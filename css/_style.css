@@ -1,0 +1,14 @@
+@import 'basic/_reset.css';
+@import 'basic/_vars.css';
+@import 'basic/_fonts.css';
+@import 'basic/_global.css';
+
+@import 'components/_header.css';
+@import 'components/_about.css';
+@import 'components/_info.css';
+@import 'components/_contact.css';
+@import 'components/_footer.css';
+
+@import 'components2/_headline.css';
+@import 'components2/_osnova.css';
+@import 'components2/_osnovaa.css';

@@ -1,0 +1,30 @@
+.headline {
+    margin-top: 120px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.fist__1 {
+    max-width: 580px;
+    font-size: 32px;
+    line-height: 37.44px;
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 116.18px;
+    margin-right: 64px;
+    float: right;
+    color:#606060;
+}
+
+.fist__2 {
+    max-width: 360px;
+    font-size: 60px;
+    line-height: 58.32px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.svg {
+    margin-top: 116.18px;
+    margin-bottom: 113.78px;
+}

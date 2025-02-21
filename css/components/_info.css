@@ -1,0 +1,56 @@
+.info {
+    
+    margin-top: 139px;
+    margin-bottom: 134px;
+    width: 100%;
+}
+
+.list__3 {
+    max-width: 124px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-bottom: 64px;
+    transition: 0.2s ease-in-out;
+}
+
+.list__3:hover {
+    color:blueviolet
+}
+
+.list__3:focus {
+   color: var(--white-);
+   background-color: var(--blue-);
+}
+
+
+.list__4 {
+    max-width: 436px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-bottom: 24px;
+    float: right;
+    margin-right: 494px;
+}
+
+.list__41 {
+    max-width: 436px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-bottom: 72px;
+    margin-left: 190px;
+    
+    
+}
+
+.list__5 {
+    max-width: 436px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-bottom: 134px;
+    float: right;
+    margin-right: 494px;
+}
