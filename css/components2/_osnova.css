@@ -1,12 +1,16 @@
-.osnova.css {
+.osnova {
     margin-top: 120px;
     margin-bottom: 32px;
     width: 100%;
 }
 
+.osnova_card {
+    display: flex;
+    gap: 150px;
+}
 .svg2 {
     max-width: 640px;
-    float: right;
+   
     margin-bottom: 108.32px;
 }
 
@@ -49,6 +53,47 @@
     transition: 0.2s ease-in-out;
 }
 
+.dist__5 {
+    max-width: 326.21px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-top: 63px;
+    transition: 0.2s ease-in-out;
+}
+ 
+.dist__6 {
+    max-width: 326.21px;
+    font-size: 18px;
+    line-height: 21.87px;
+    width: 100%;
+    margin-bottom: 255px;
+    margin-top: 255px;
+    transition: 0.2s ease-in-out;
+}
+ 
+.w {
+    color: aliceblue;
+    margin-bottom: 190px;
+}
+.dist__5:hover {
+    color: blueviolet;
+}
+
+.dist__5:focus {
+    color: var(--white-);
+   background-color: var(--blue-);
+  }
+
+  .dist__6:hover {
+    color: blueviolet;
+}
+
+.dist__6:focus {
+    color: var(--white-);
+   background-color: var(--blue-);
+  }
+
 .dist__4:hover {
     color: blueviolet;
 }
@@ -56,4 +101,211 @@
 .dist__4:focus {
     color: var(--white-);
    background-color: var(--blue-);
+}
+
+
+@media(max-width: 960px){
+    .osnova_card {
+        
+        gap: 100px;
+    }
+
+    .svg2 {
+        max-width: 550px;
+       
+        margin-bottom: 108.32px;
+    }
+
+    .dist__2 {
+        max-width: 356px;
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    
+
+    .dist__3 {
+        max-width: 315.34px;
+        font-size: 14px;
+        line-height: 17.01px;
+        width: 100%;
+        margin-bottom: 100px;
+        
+    }
+
+    .w {
+        
+        margin-bottom: 150px;
+    }
+}
+
+@media(max-width: 760px){
+    .osnova_card {
+        
+        gap: 80px;
+    }
+
+    .svg2 {
+        max-width: 420px;
+       
+        margin-bottom: 108.32px;
+    }
+
+    .dist__1 {
+        max-width: 326.21px;
+        font-size: 16px;
+        line-height: 21.87px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .dist__2 {
+        max-width: 356px;
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    
+
+    .dist__3 {
+        max-width: 315.34px;
+        font-size: 14px;
+        line-height: 17.01px;
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+
+    .w {
+        
+        margin-bottom: 90px;
+    }
+
+    .osnova {
+        margin-top: 80px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+  
+}
+
+@media(max-width: 480px){
+    .osnova_card {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .svg2 {
+        max-width: 420px;
+       
+        margin-bottom: 70px;
+        margin-top: -30px;
+    }
+
+    .dist__1 {
+        max-width: 326.21px;
+        font-size: 16px;
+        line-height: 21.87px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .dist__2 {
+        max-width: 356px;
+        font-size: 12px;
+        line-height: 18px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    
+
+    .dist__3 {
+        max-width: 315.34px;
+        font-size: 14px;
+        line-height: 17.01px;
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+
+    .w {
+        
+        margin-bottom: 0px;
+    }
+
+    .osnova {
+        margin-top: 80px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+  
+}
+
+@media(max-width: 320px){
+    .osnova_card {
+        
+        gap: 80px;
+    }
+
+    .svg2 {
+        max-width: 420px;
+       
+        margin-bottom: 70px;
+        margin-top: -30px;
+    }
+
+    .dist__1 {
+        max-width: 326.21px;
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .dist__2 {
+        max-width: 356px;
+        font-size: 10px;
+        line-height: 15px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    
+
+    .dist__3 {
+        max-width: 315.34px;
+        font-size: 12px;
+        line-height: 15px;
+        width: 100%;
+        margin-bottom: 50px;
+        
+    }
+
+    .dist__4 {
+        max-width: 326.21px;
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .w {
+        
+        margin-bottom: 0px;
+    }
+
+    .osnova {
+        margin-top: 80px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+  
 }

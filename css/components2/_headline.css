@@ -4,12 +4,16 @@
     width: 100%;
 }
 
+.fisty {
+    display: flex;
+}
+
 .fist__1 {
     max-width: 580px;
     font-size: 32px;
     line-height: 37.44px;
     width: 100%;
-    margin-top: 64px;
+    margin-top: -50px;
     margin-bottom: 116.18px;
     margin-right: 64px;
     float: right;
@@ -27,4 +31,132 @@
 .svg {
     margin-top: 116.18px;
     margin-bottom: 113.78px;
+}
+
+@media(max-width: 960px){
+    .headline {
+        margin-top: 115px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .fist__1 {
+        max-width: 500px;
+        font-size: 25px;
+        line-height: 37.44px;
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: 116.18px;
+        margin-right: 0px;
+
+    }
+    
+    .fist__2 {
+        max-width: 360px;
+        font-size: 55px;
+        line-height: 58.32px;
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    .svg {
+        margin-top: 116.18px;
+        margin-bottom: 113.78px;
+    }
+}
+
+@media(max-width: 760px){
+    .headline {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .fist__1 {
+        max-width: 400px;
+        font-size: 20px;
+        line-height: 37.44px;
+        width: 100%;
+        margin-top: -50px;
+        margin-bottom: 116.18px;
+        margin-right: 0px;
+
+    }
+    
+    .fist__2 {
+        max-width: 360px;
+        font-size: 45px;
+        line-height: 58.32px;
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    .svg {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 480px){
+    .headline {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .fist__1 {
+        max-width: 400px;
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        margin-right: 0px;
+
+    }
+    
+    .fist__2 {
+        max-width: 360px;
+        font-size: 45px;
+        line-height: 50px;
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    .svg {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 320px){
+    .headline {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .fist__1 {
+        max-width: 400px;
+        font-size: 17px;
+        line-height: 25px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        margin-right: 0px;
+
+    }
+    
+    .fist__2 {
+        max-width: 360px;
+        font-size: 40px;
+        line-height: 40px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .svg {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
 }
